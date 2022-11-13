@@ -6,6 +6,14 @@ const Product = new Daos.productDaos();
 // const Daos = require('../daos/mongo/mainMongoDaos');
 // const Product = new Daos.productDaos();
 
+//MySql
+// const Daos = require('../daos/mysql/mainMysqlDaos');
+// const Product = new Daos.productDaos();
+
+//SQlite3
+// const Daos = require('../daos/sqlite3/mainSqlite3Daos');
+// const Product = new Daos.productDaos();
+
 module.exports = {
   createProduct: async (req, res) => {
     try {
